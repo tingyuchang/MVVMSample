@@ -19,6 +19,7 @@
 		C73B21F41944070D00599AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73B21DC1944070D00599AC5 /* UIKit.framework */; };
 		C73B21FC1944070D00599AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C73B21FA1944070D00599AC5 /* InfoPlist.strings */; };
 		C73B21FE1944070D00599AC5 /* MVVMSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B21FD1944070D00599AC5 /* MVVMSampleTests.m */; };
+		C73B22091944071C00599AC5 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B22081944071C00599AC5 /* TTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C73B21F91944070D00599AC5 /* MVVMSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVMSampleTests-Info.plist"; sourceTree = "<group>"; };
 		C73B21FB1944070D00599AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C73B21FD1944070D00599AC5 /* MVVMSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMSampleTests.m; sourceTree = "<group>"; };
+		C73B22071944071C00599AC5 /* TTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		C73B22081944071C00599AC5 /* TTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				C73B21E71944070D00599AC5 /* TTAppDelegate.h */,
 				C73B21E81944070D00599AC5 /* TTAppDelegate.m */,
+				C73B22071944071C00599AC5 /* TTViewController.h */,
+				C73B22081944071C00599AC5 /* TTViewController.m */,
 				C73B21EA1944070D00599AC5 /* Images.xcassets */,
 				C73B21DF1944070D00599AC5 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				C73B21E91944070D00599AC5 /* TTAppDelegate.m in Sources */,
 				C73B21E51944070D00599AC5 /* main.m in Sources */,
+				C73B22091944071C00599AC5 /* TTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
